@@ -1,0 +1,38 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT musicStore (header,Shelf,footer)>
+
+<!ELEMENT header (logo,Name,Address,Telephone_No,Website)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA) >
+<!ELEMENT Telephone_No (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+
+<!ELEMENT Shelf (first_row, second_row, third_row, fourth_row, fifth_row)>
+<!ELEMENT first_row (Song+)>
+<!ELEMENT second_row (Song+)>
+<!ELEMENT third_row (Song+)>
+<!ELEMENT fourth_row (Song+)>
+<!ELEMENT fifth_row (Song+)>
+
+<!ELEMENT Song (bgPic,SongName,Genre,Artist,Producer?,SongWriter?,Director?,
+              ReleaseYear?,Length,Album?,YoutubeLink)>
+<!ATTLIST Song id CDATA #REQUIRED>
+<!ELEMENT bgPic (#PCDATA)>
+<!ATTLIST bgPic id CDATA #REQUIRED>
+<!ELEMENT SongName (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Artist (#PCDATA)>
+<!ATTLIST Artist type CDATA #REQUIRED>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT SongWriter (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT ReleaseYear (#PCDATA)>
+<!ELEMENT Length (#PCDATA)>
+<!ATTLIST Length songLength CDATA #REQUIRED>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT YoutubeLink (#PCDATA)>
+<!ATTLIST YoutubeLink link_id CDATA #REQUIRED>
+
+<!ELEMENT footer (Copyright)>
+<!ELEMENT Copyright (#PCDATA)>

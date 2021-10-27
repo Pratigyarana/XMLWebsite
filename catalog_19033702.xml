@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19033702.css"?>
+<!DOCTYPE musicStore SYSTEM "catalog_19033702.dtd">
+<!--<musicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_19033702.xsd"> -->
+<musicStore>
+    <header>
+
+        <logo></logo>
+       
+            <Name>Mandu Music Store</Name>
+            <Address>Thamel,kathmandu</Address>
+            <Telephone_No>+937822729</Telephone_No>
+            <Website>http://mandumusic.com</Website>
+ 
+    </header>
+    <Shelf>
+        <first_row>
+        <Song id="first_song">
+            <bgPic id="one"></bgPic>
+            <SongName>Name: Solo</SongName>
+			<Genre>Genre: Kpop</Genre>
+            <Artist type="solo">Artist: Jennie Kim</Artist>
+            <Producer>Producer: Teddy park</Producer>
+            <SongWriter>SongWriter: Teddy park</SongWriter>
+            <Director>Director: Han sa-min</Director>
+            <ReleaseYear>ReleaseYear: 12 November 2018</ReleaseYear>
+            <Length songLength="short">Length: 02 mins 56 sec</Length>
+            <YoutubeLink link_id="1">YoutubeLink: https://youtu.be/b73BI9eUkjM</YoutubeLink>
+        </Song>
+        <Song id="second_song">
+            <bgPic id="two"></bgPic>
+            <SongName>Name: So What</SongName>
+			<Genre>Genre: Jazz</Genre>
+            <Artist type="solo">Artist: Miles Davis</Artist>
+            <Producer>Producer: Teo Macreo</Producer>
+            <SongWriter>SongWriter: Miles Davis</SongWriter>
+            <ReleaseYear>ReleaseYear: 17 August 1959</ReleaseYear>
+            <Length songLength="veryLong">Length: 09 mins 22 sec</Length>
+            <Album>Album: Kind of Blue</Album>
+            <YoutubeLink link_id="2">YoutubeLink: https://youtu.be/ylXk1LBvIqU</YoutubeLink>
+        </Song>
+        <Song id="third_song">
+            <bgPic id="three"></bgPic>
+            <SongName>Name: We will rock you</SongName>
+			<Genre>Genre: Rock</Genre>
+            <Artist type="band">Artist: Queen</Artist>
+            <Producer>Producer: Mike stone</Producer>
+            <SongWriter>SongWriter: Brian May</SongWriter>
+            <Director>Director: Christopher Renshaw</Director>
+            <ReleaseYear>Releaseyear: 1977</ReleaseYear>
+            <Length songLength="short">Length: 02 mins 2 sec</Length>
+            <Album>Album: News of the World</Album>
+            <YoutubeLink link_id="3">YoutubeLink: https://youtu.be/-tJYN-eG1zk</YoutubeLink>
+        </Song>
+
+        </first_row>
+        <second_row>
+        <Song id="fourth_song">
+            <bgPic id="four"></bgPic>
+            <SongName>Name: How you like that</SongName>
+			<Genre>Genre: Kpop</Genre>
+            <Artist type="band">Artist: BlackPink</Artist>
+            <Producer>Producer: Teddy Park</Producer>
+            <SongWriter>Songwriter: Teddy Park, Kim jung-gu, Danny Chung</SongWriter>
+            <Director>Director: Seo Hyun-seung</Director>
+            <ReleaseYear>ReleaseYear: 26 June 2020</ReleaseYear>
+            <Length songLength="average">Length: 03 mins 1 sec</Length>
+            <Album>Album: The Album</Album>
+            <YoutubeLink link_id="4">YoutubeLink: https://youtu.be/ioNng23DkIM</YoutubeLink>
+        </Song>
+        <Song id="fifth_song">
+            <bgPic id="five"></bgPic>
+            <SongName>Name: Army</SongName>
+			<Genre>Genre: Pop</Genre>
+            <Artist type="solo">Artist: Ellie Goulding</Artist>
+            <Producer>Producer: Max Martin, Ali Payami</Producer>
+            <SongWriter>SongWriter: Ellie Goulding, Max Martin, Savan Kotecha, Ali Payami</SongWriter>
+            <Director>Director: Conor McDonnell</Director>
+            <ReleaseYear>ReleaseYear: 9 January 2016</ReleaseYear>
+            <Length songLength="average">Length: 03 mins 57 sec</Length>
+            <Album>Album: Delirium</Album>
+            <YoutubeLink link_id="5">YoutubueLink: https://youtu.be/jTTNWpag6fI</YoutubeLink>
+        </Song>
+        <Song id="sixth_song">
+            <bgPic id="six"></bgPic>
+            <SongName>Name: Promises</SongName>
+			<Genre>Genre: Dubstep</Genre>
+            <Artist type="band">Artist: Nero</Artist>
+            <Producer>Producer: Max Martin, Ali Payami</Producer>
+            <SongWriter>SongWriter: Daniel Stephens, Joe Ray, Alana Watson</SongWriter>
+            <ReleaseYear>ReleaseYear: 5 August 2011</ReleaseYear>
+            <Length songLength="long">Length: 04 mins 17 sec</Length>
+            <Album>Album: Welcome Reality</Album>
+            <YoutubeLink link_id="6">YoutubeLink: https://youtu.be/CU6zwoWjWkg</YoutubeLink>
+        </Song>
+        </second_row>
+        <third_row>
+        <Song id="seventh_song">
+            <bgPic id="seven"></bgPic>
+            <SongName>Name: Friends in Low Places</SongName>
+			<Genre>Genre: Country</Genre>
+            <Artist type="solo">Artist: Garth Brooks</Artist>
+            <Producer>Producer: Allen Reynolds</Producer>
+            <SongWriter>SongWriter: Dewayne Blackwell, Earl Bud Lee</SongWriter>
+            <ReleaseYear>ReleaseYear: 6 August 1960</ReleaseYear>
+            <Length songLength="long">Length: 04 mins 18 sec</Length>
+            <Album>Album: No Fences</Album>
+            <YoutubeLink link_id="7">YoutubeLink: https://youtu.be/p0_der_5hRM</YoutubeLink>
+        </Song>
+        <Song id="eighth_song">
+            <bgPic id="eight"></bgPic>
+            <SongName>Name: I Hope You Dance</SongName>
+			<Genre>Genre: Country Pop</Genre>
+            <Artist type="solo">Artist: Lee Ann Womack</Artist>
+            <Producer>Producer: Mark Wright</Producer>
+            <SongWriter>SongWriter: Mark D. Sanders, Tia Sillers</SongWriter>
+            <Director>Director: Gerry Wenner</Director>
+            <ReleaseYear>ReleaseYear: 9 January 2016</ReleaseYear>
+            <Length songLength="long">Length: 04 mins 54 sec</Length>
+            <Album>Album: I Hope You Dance</Album>
+            <YoutubeLink link_id="8">YoutubeLink: https://youtu.be/RV-Z1YwaOiw</YoutubeLink>
+        </Song>
+        <Song id="nineth_song">
+            <bgPic id="nine"></bgPic>
+            <SongName>Name: Sadda Haq</SongName>
+			<Genre>Genre: Rock</Genre>
+            <Artist type="solo">Artist: Mohit Chauhan</Artist>
+            <Producer>Producer: A.R.Rahman</Producer>
+            <SongWriter>SongWriter: A.R.Rahman, Irshad Kohli</SongWriter>
+            <ReleaseYear>ReleaseYear: 30 September 2011</ReleaseYear>
+            <Length songLength="veryLong">Length: 06 mins 5 sec</Length>
+            <Album>Album: Rockstar</Album>
+            <YoutubeLink link_id="9">YoutubeLink: https://youtu.be/p9DQINKZxWE</YoutubeLink>
+        </Song>
+        </third_row>
+        <fourth_row>
+        <Song id="tenth_song">
+            <bgPic id="ten"></bgPic>
+            <SongName>Name: Jo Tu Na Mila</SongName>
+			<Genre>Genre: Pakistani Pop</Genre>
+            <Artist type="solo">Artist: Asim Ajhar</Artist>
+            <Producer>Producer: Waqas Hasan</Producer>
+            <SongWriter>SongWriter: Asim Azhar, Kunaal Verma</SongWriter>
+            <Director>Director: Yasir Jaswal</Director>
+            <ReleaseYear>Releaseyear: 9 January 2016</ReleaseYear>
+            <Length songLength="long">Length: 04 mins 20 sec</Length>
+            <YoutubeLink link_id="10">YoutubeLink: https://youtu.be/6DtPF9W3ejI</YoutubeLink>
+        </Song>
+        <Song id="eleventh_song">
+            <bgPic id="eleven"></bgPic>
+            <SongName>Name: Dream on</SongName>
+			<Genre>Genre: Rock</Genre>
+            <Artist type="band">Artist: Aerosmith</Artist>
+            <Producer>Producer: Adrian Barbe</Producer>
+            <SongWriter>SongWriter: Steven tyler</SongWriter>
+            <Director>Director: Marty Callner</Director>
+            <ReleaseYear>ReleaseYear: 27 June 1973</ReleaseYear>
+            <Length songLength="long">Length: 04 mins 26 sec</Length>
+            <YoutubeLink link_id="11">YoutubeLink: https://youtu.be/sZfZ8uWaOFI</YoutubeLink>
+        </Song>
+        <Song id="twelfth_song">
+            <bgPic id="twelve"></bgPic>
+            <SongName>Name: Call me maybe</SongName>
+			<Genre>Genre: Pop</Genre>
+            <Artist type="solo">Artist: Carly Rae Jepsen</Artist>
+            <Producer>Producer: Josh Ramsay</Producer>
+            <SongWriter>SongWriter: Carly Rae Jepsen, Josh Ramsay, Tavish Crowe</SongWriter>
+            <ReleaseYear>ReleaseYear: 20 September 2011</ReleaseYear>
+            <Length songLength="average">Length: 03 mins 13 sec</Length>
+            <Album>Album: Kiss and Curiosity</Album>
+            <YoutubeLink link_id="12">YoutubeLink: https://www.youtube.com/watch?v=fWNaR-rxAic</YoutubeLink>
+        </Song>
+        </fourth_row>
+        <fifth_row>
+        <Song id="thirteenth_song">
+            <bgPic id="thirteen"></bgPic>
+            <SongName>Name: Say you Won't Let Go</SongName>
+			<Genre>Genre: Pop</Genre>
+            <Artist type="solo">Artist: James Arthur</Artist>
+            <Producer>Producer: Neil Ormandy, Bradley Spence</Producer>
+            <SongWriter>SongWriter: James Arthur, Andrew Frampton, Daniel O'Donoghue, Steve Kipner, Mark Sheehan, Neil Ormandy, Steve Solomon</SongWriter>
+            <Director>Director: Conor McDonnell</Director>
+            <ReleaseYear>ReleaseYear: 9 September 2016</ReleaseYear>
+            <Length songLength="average">Length: 03 mins 31 sec</Length>
+            <Album>Album: Back from the edge</Album>
+            <YoutubeLink link_id="13">YoutubeLink: https://youtu.be/0yW7w8F2TVA</YoutubeLink>
+        </Song>
+        <Song id="fourteenth_songth">
+            <bgPic id="fourteen"></bgPic>
+            <SongName>Name: Kashmir</SongName>
+			<Genre>Genre: Rock</Genre>
+            <Artist type="band">Artist: Led Zepplin</Artist>
+            <Producer>Producer: Jimmy Page</Producer>
+            <SongWriter>SongWriter: John Bonham, Jimmy Page, Robert Plant</SongWriter>
+            <ReleaseYear>ReleaseYear: 24 February 1975</ReleaseYear>
+            <Length songLength="veryLong">Length: 09 mins 41 sec</Length>
+            <Album>Album: Physical Graffiti</Album>
+            <YoutubeLink link_id="14">YoutubeLink: https://youtu.be/HNERxbBtT5Q</YoutubeLink>
+        </Song>
+        <Song id="fifteenth_song">
+            <bgPic id="fifteen"></bgPic>
+            <SongName>Name: Stay</SongName>
+			<Genre>Genre: Kpop</Genre>
+            <Artist type="band">Artist: BlackPink</Artist>
+            <Producer>Producer: Teddy Park</Producer>
+            <SongWriter>SongWriter: Teddy Park</SongWriter>
+            <Director>Director: Han Sa Min</Director>
+            <ReleaseYear>ReleaseYear: 1 November 2016</ReleaseYear>
+            <Length songLength="average">Length: 03 mins 50 sec</Length>
+            <Album>Album: Square Two</Album>
+            <YoutubeLink link_id="15">YoutubeLink: https://youtu.be/FzVR_fymZw4</YoutubeLink>
+        </Song>
+        </fifth_row>
+    </Shelf>
+    <footer>
+        <Copyright>© Copyright 2021 All Rights Reserved.</Copyright>
+    </footer>
+</musicStore>

@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Itim', cursive; */
+header{
+	background-image: url("./Images/Back.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius:8px;
+	box-shadow:3px 5px 8px rgba(0,0,0,0.3);
+	display:block;
+	width:90%;
+	margin:20px auto;
+	box-shadow:3px 5px 8px rgba(0,0,0,0.4);
+	height:100px;
+	padding-top:20px;
+	text-align:center;
+	height:200px;
+
+
+
+}
+logo{
+	display:inline-block;
+	margin:auto;
+	background-image: url('./Images/Logo.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+}
+Name{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	text-shadow:2px 3px 8px rgba(0,0,0,0.4);
+	font-weight:700;
+	display:block;
+	font-size:30px;
+}
+Address{
+	display:block;
+}
+Telephone_No{
+	display:block;
+	
+}
+Website{
+	display:block;
+
+}
+
+
+/* songs list */
+Song, bgPic,Album, SongName, Genre, Artist, Producer, SongWriter, Director, ReleaseYear, Length, YoutubeLink{
+	display:block
+}
+
+Song{
+
+} 
+bgPic{
+
+}
+ SongName{
+	font-family: 'Itim', cursive;
+	font-weight:bold;
+	text-align:center;
+	font-size: 30px;
+	margin-bottom:10px;
+
+} 
+Genre,Album{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+} 
+Artist{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+
+} 
+Producer{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+
+}
+SongWriter{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+
+} 
+Director{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+
+} 
+ReleaseYear{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;	
+	text-align:center;
+	margin-bottom:6px;
+
+} 
+Length{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+
+}
+YoutubeLink{
+	font-family: 'Roboto', sans-serif; 
+	font-size:16px;
+	text-align:center;
+	margin-bottom:6px;
+}
+first_row, second_row, third_row, fourth_row, fifth_row, sixth_row{
+	display:flex;
+	margin-left:10%;
+}
+second_row{
+	display:flex;
+
+}
+third_row{
+	display:flex;
+
+}
+
+fourth_row{
+	display:flex;
+
+}
+
+fifth_row{
+	display:flex;
+
+}
+
+
+first_row Song,second_row Song, third_row Song, fourth_row Song, fifth_row Song{
+	width: 30%;
+	border:2px solid #26A5DF;
+	margin-right:20px;
+	border-radius:8px;
+	padding:20px 0;
+	margin-bottom:80px;
+
+}
+#one{   
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/Solo.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+	
+
+}
+#two{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/So\ what.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#three{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/WWRY.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#four{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/HYLT.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+
+#five{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/Army.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#six{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/Promises.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#seven{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/FILP.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#eight{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/IHYD.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#nine{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/Sadda\ haq.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#ten{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/JTNM.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#eleven{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/Dream.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#twelve{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/CMM.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#thirteen{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/SYWLG.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#fourteen{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/kashmir.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#fifteen{
+	margin: auto;
+	border-radius:8px;
+	box-shadow: 3px 5px 4px rgba(0,0,0,0.4);
+	display: block;
+	background-image: url('./Images/stay.jpg');
+	height:300px;
+	width:300px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-bottom:30px;
+	
+
+}
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #ten:hover, #eleven:hover,#twelve:hover,#thirteen:hover,#fourteen:hover,#fifteen:hover{
+	
+	transform: scale(1.095);
+	/* transform: skewY(2deg); */
+	
+}
+
+footer{
+	display:block;
+	background-image: url('./Images/footer_img.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:80px;
+	text-align: center;
+	padding-top:100px;
+
+}
+Copyright{
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+	font-size:25px;
+}
